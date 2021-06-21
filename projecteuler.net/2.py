@@ -26,6 +26,7 @@ def sum_even_terms():
         if result % 2 == 0:
             sum_even += result
 
+    # 4613732
     print(sum_even)
 
 
