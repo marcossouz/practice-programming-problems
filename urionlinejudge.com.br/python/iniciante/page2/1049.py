@@ -1,8 +1,8 @@
 # https://www.urionlinejudge.com.br/judge/pt/problems/view/1049
 
-A = raw_input()
-B = raw_input()
-C = raw_input()
+A = input()
+B = input()
+C = input()
 
 if A == 'vertebrado':
     if B == 'ave':
