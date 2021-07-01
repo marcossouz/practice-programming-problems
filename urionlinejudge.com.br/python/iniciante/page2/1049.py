@@ -20,7 +20,7 @@ else:
         if C == 'hematofago':
             print('pulga')
         else:
-            print('lagarto')
+            print('lagarta')
     else:
         if C == 'hematofago':
             print('sanguessuga')
