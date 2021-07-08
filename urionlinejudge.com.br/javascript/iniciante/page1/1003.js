@@ -4,7 +4,7 @@ const { exit } = require('process');
 
 for(var i in [...Array(3).keys()]) {
   var myInterface = readline.createInterface({
-    input: fs.createReadStream(`../inputData/1005/${i}.in`)
+    input: fs.createReadStream(`inputData/1003/${i}.in`)
   });
 
   var lines = [];
@@ -16,10 +16,9 @@ for(var i in [...Array(3).keys()]) {
   myInterface.on('close', function() {
       // URI JUDGE INICIO
 
-      let a = parseFloat(lines.shift());
-      let b = parseFloat(lines.shift());
-      let media = ((a * 3.5) + (b * 7.5)) / 11
-      let result = `MEDIA = ${media.toFixed(5)}`;
+      let a = parseInt(lines.shift());
+      let b = parseInt(lines.shift());
+      let result = `SOMA = ${a + b}`;
       
       console.log(result);
       // URI JUDGE FIM

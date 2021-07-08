@@ -6,7 +6,7 @@ var expected = ['X = 19', 'X = -6', 'X = 8']
 
 for(var i in [...Array(3).keys()]) {
   var myInterface = readline.createInterface({
-    input: fs.createReadStream(`../inputData/1001/${i}.in`)
+    input: fs.createReadStream(`inputData/1001/${i}.in`)
   });
 
   var lines = [];
